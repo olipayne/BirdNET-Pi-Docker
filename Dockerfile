@@ -1,4 +1,4 @@
-FROM navikey/raspbian-bullseye:latest
+FROM balenalib/raspberrypi4-64-debian:bullseye
 
 ENV DEBIAN_FRONTEND noninteractive
 
