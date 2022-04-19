@@ -19,4 +19,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ${{ github.actor }}/${{ github.repo }}:latest
+          tags: ${{ github.repository }}:${{ github.ref_name }}
